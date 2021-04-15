@@ -26,3 +26,11 @@ sed '3 s/unix/linux/' unix.txt
 # To change the word from line 2 to last line
 # ($ denotes last line here) 
 sed '2,$ s/unix/linux/' unix.txt
+
+# To delete pattern matching line
+sed '/pattern/d' filename.txt
+sed '/unix/d' unix.txt
+
+# To delete line from range x to y
+sed 'x,yd' filename.txt
+sed '1,4d' unix.txt
