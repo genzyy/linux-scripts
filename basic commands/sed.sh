@@ -34,3 +34,5 @@ sed '/unix/d' unix.txt
 # To delete line from range x to y
 sed 'x,yd' filename.txt
 sed '1,4d' unix.txt
+
+# unix & linux is the best!
